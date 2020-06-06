@@ -11,10 +11,11 @@ import importlib
 #from tensorflow.keras.models import Model
 #import keras
 import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
 from tensorflow.keras.models import load_model
 import cv2
 import numpy
-from tensorflow.keras.backend as K
+import tensorflow.keras.backend as K
 import os
 #from tensorflow.python.keras.backend import set_session
 #from tensorflow.python.keras.models import load_model
