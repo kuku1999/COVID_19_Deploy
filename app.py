@@ -10,11 +10,11 @@ import importlib
 #from tensorflow.keras.layers.core import Dense
 #from tensorflow.keras.models import Model
 #import keras
-import tensorflow
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 import cv2
 import numpy
-# from keras import backend as K
+from tensorflow.keras.backend as K
 import os
 #from tensorflow.python.keras.backend import set_session
 #from tensorflow.python.keras.models import load_model
