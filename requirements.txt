@@ -4,4 +4,4 @@ numpy>=1.16.2
 opencv-python>=4.0.0
 pandas>=0.19
 matplotlib>=1.4.3
-tensorflow==2.0
+tensorflow==2.2.0
